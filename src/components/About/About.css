@@ -1,0 +1,24 @@
+/* .about {
+  background: linear-gradient(
+    to right,
+    rgba(126, 143, 254, 0.05),
+    rgba(154, 117, 255, 0.05)
+  );
+} */
+
+.theme-text {
+  background: linear-gradient(to right, #7e90fe, #9873ff);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+.user-img {
+  height: 600px;
+  width: 622px;
+}
+
+.about {
+  max-height: 600px;
+}

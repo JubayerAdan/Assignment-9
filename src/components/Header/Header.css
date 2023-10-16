@@ -1,0 +1,35 @@
+.btn-theme {
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #7e90fe, #9873ff);
+  background: linear-gradient(to right, #7e90fe, #9873ff);
+  padding: 10px 15px !important;
+  font-weight: 600 !important;
+  color: white;
+}
+
+.link-container a {
+  text-decoration: none;
+  background: linear-gradient(to right, #7e90fe, #9873ff);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.extra-bold {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.header {
+  background: linear-gradient(
+    to right,
+    rgba(126, 143, 254, 0.05),
+    rgba(154, 117, 255, 0.05)
+  );
+  padding: 10px;
+}

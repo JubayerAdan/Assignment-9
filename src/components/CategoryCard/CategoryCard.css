@@ -1,0 +1,8 @@
+.ct-card {
+  background: linear-gradient(
+    to right,
+    rgba(126, 143, 254, 0.05),
+    rgba(154, 117, 255, 0.05)
+  );
+  padding: 15px 25px !important;
+}
