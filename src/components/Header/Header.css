@@ -6,6 +6,14 @@
   font-weight: 600 !important;
   color: white;
 }
+.btn-theme1 {
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #7e90fe, #9873ff);
+  background: linear-gradient(to right, #7e90fe, #9873ff);
+  padding: 6px 15px !important;
+  font-weight: 600 !important;
+  color: white;
+}
 
 .link-container a {
   text-decoration: none;
@@ -26,10 +34,10 @@
 }
 
 .header {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     rgba(126, 143, 254, 0.05),
     rgba(154, 117, 255, 0.05)
-  );
+  ); */
   padding: 10px;
 }

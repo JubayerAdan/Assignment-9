@@ -1,0 +1,23 @@
+.featured-cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-card {
+  margin-right: 10px; /* Adjust this value to control the space between cards */
+}
+
+.featured-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* This sets two columns with equal width */
+  grid-gap: 20px; /* Adjust this value to control the space between cards */
+  padding: 20px;
+}
+
+.featured-cards {
+  margin-left: 40px;
+  justify-content: center;
+}

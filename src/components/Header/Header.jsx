@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../../assets/logo/CareerHub.png";
 import "./Header.css";
 const Header = () => {
   return (
     <div className="container header d-flex justify-content-between align-items-center">
       <div>
-        <h2 className="bold">CareerHub</h2>
+        <img src={Logo} alt="" />
       </div>
       <div className="d-flex pt-2 link-container justify-content-center">
         <Link to="/statistics" className="me-3 ">

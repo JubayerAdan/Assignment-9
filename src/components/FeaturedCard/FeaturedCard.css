@@ -1,0 +1,35 @@
+.remote_or_onsite span {
+  background: linear-gradient(to right, #7e90fe, #9873ff);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* For Safari */
+  font-weight: 700;
+}
+
+.remote_or_onsite {
+  border: 1.5px solid;
+  border-image: linear-gradient(to right, #7e90fe, #9873ff);
+  border-image-slice: 1;
+  display: inline;
+  padding: 5px;
+  padding-right: 10px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.ft-card {
+  margin-top: 20px !important;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 20px;
+}
+.ft-card img {
+  margin: 10px;
+}
+
+.ft-card small {
+  color: lightslategray;
+  font-size: 15px;
+  font-weight: 600;
+}

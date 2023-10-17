@@ -13,7 +13,7 @@ const Category = () => {
       <div>
         <div>
           <h2 className="text-center extra-bold1">Job Category List</h2>
-          <p className="ms-5 ps-5">
+          <p className="ms-5" style={{ paddingLeft: "7rem" }}>
             <small>
               Explore thousands of job opportunities with all the information
               you need. Its your future
