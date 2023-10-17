@@ -2,9 +2,18 @@ import React from "react";
 import "./FeaturedCard.css";
 import locateIcon from "../../assets/icons/Location.png";
 import salaryIcon from "../../assets/icons/money.png";
+import { useNavigate } from "react-router-dom";
 const FeaturedCard = ({ card }) => {
-  const { logo, job_title, company_name, remote_or_onsite, location, salary } =
-    card;
+  const {
+    logo,
+    id,
+    job_title,
+    company_name,
+    remote_or_onsite,
+    location,
+    salary,
+  } = card;
+  const navigate = useNavigate();
   return (
     <div>
       <div className="ft-card">
@@ -29,7 +38,12 @@ const FeaturedCard = ({ card }) => {
             </div>
           </div>
         </div>
-        <button className="btn-theme1 rounded">View Details</button>
+        <button
+          onClick={() => navigate(`/${id}`)}
+          className="btn-theme1 rounded"
+        >
+          View Details
+        </button>
       </div>
     </div>
   );

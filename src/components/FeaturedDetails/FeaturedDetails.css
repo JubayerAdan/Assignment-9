@@ -1,0 +1,39 @@
+.Description-sec {
+  margin: 7rem;
+}
+
+.Details-sec {
+  max-width: 464px;
+  height: 444px;
+  margin-top: 8rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  bottom: 1rem;
+  background: linear-gradient(
+    to right,
+    rgba(126, 143, 254, 0.05),
+    rgba(154, 117, 255, 0.05)
+  );
+  padding: 40px;
+  text-wrap: nowrap;
+}
+
+.Details-sec hr {
+  color: #7e90fe;
+}
+
+.Details-sec h6 small {
+  font-weight: 500;
+  color: #757575;
+  font-size: 14px;
+}
+
+.btn-theme2 {
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #7e90fe, #9873ff);
+  background: linear-gradient(to right, #7e90fe, #9873ff);
+  padding: 6px 10px !important;
+  font-weight: 600 !important;
+  width: 63%;
+  color: white;
+}
