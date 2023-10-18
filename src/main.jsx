@@ -8,6 +8,8 @@ import Home from "./components/Home/Home.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FeaturedDetails from "./components/FeaturedDetails/FeaturedDetails.jsx";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs.jsx";
+import { getShoppingCart } from "./utilites/fakedb.js";
+import Statistics from "./components/Statistics/Statistics.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -46,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: "applied",
         element: <AppliedJobs></AppliedJobs>,
+      },
+      {
+        path: "statistics",
+        element: <Statistics></Statistics>,
       },
     ],
   },
