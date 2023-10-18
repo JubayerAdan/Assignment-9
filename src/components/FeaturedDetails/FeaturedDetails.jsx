@@ -9,7 +9,7 @@ import RouteHeader from "../RouteHeader/RouteHeader";
 const FeaturedDetails = () => {
   const card = useLoaderData();
   function applyNowHandler() {
-    toast.success("Hello");
+    toast.success("Applied For This Job Successfully");
     addToDb(card.id);
   }
   return (
